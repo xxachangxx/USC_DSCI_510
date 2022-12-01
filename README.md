@@ -16,9 +16,20 @@ dir ./code contains code for fetching data and analysis
   2.  [VACCOVID API](https://vaccovid-coronavirus-vaccine-and-treatment-tracker.p.rapidapi.com/api/npm-covid-data/): use python requests to get the data
 * Has 238710 samples in total so far. Data is up to date and update every single day
 
+## Data Collection Code
+
+Data collection code is in `./code/HW3.ipynb`
+
 ## Sample Data
 
 Sample data is in CSV format. Stored in `./data/hw3_sample.csv`
+
+Using code following to generate sample code:
+
+```python
+df = pd.read_csv("owid-covid-data.csv",index_col='iso_code')
+df.head(10000).to_csv("hw3_sample.csv")
+```
 
 ## Update 
 
