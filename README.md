@@ -10,18 +10,23 @@ dir ./code contains code for fetching data and analysis
 
 * General Nature: COVID-19 Statistic
 * **Data Source**: 
-  1.  [Data from github](https://github.com/owid/covid-19-data/tree/master/public/data): use `wget` to fetching the data 
+  1.  [Data from github](https://github.com/owid/covid-19-data/tree/master/public/data): use `wget` to fetch the data 
       * [raw data](https://raw.githubusercontent.com/owid/covid-19-data/master/public/data/owid-covid-data.csv)
       * [code book](https://raw.githubusercontent.com/owid/covid-19-data/master/public/data/owid-covid-data.csv)
   2.  [VACCOVID API](https://vaccovid-coronavirus-vaccine-and-treatment-tracker.p.rapidapi.com/api/npm-covid-data/): use python requests to get the data
+* Has 238710 samples in total so far. Data is up to date and update every single day
 
-### update
+## Sample Data
 
-#### 11/30/2022
+Sample data is in CSV format. Stored in ./data/sample.csv
+
+## Update 
+
+### hw3 11/30/2022
 
 * Because of **523 Server Error**, the VACCOVID is temporarily unreachable, I will download it once it get recovered. If it cannot recover, I wil discard it and only use data from github/owid/covid-19-data.git
 
-* Data from github is from multiple sources. I guess it could meet the Homework need for "2 or more sources"
+* Data from github is from multiple sources. I guess it could meet the Homework need for **"2 or more sources"**
 
   > * Confirmed cases and deaths:our data comes from theCOVID-19 Data Repository by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University(JHU). We discuss how and when JHU collects and publishes this data here. The cases & deaths dataset is updated daily.
   >
