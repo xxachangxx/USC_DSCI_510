@@ -18,11 +18,11 @@ dir ./code contains code for fetching data and analysis
 
 ## Sample Data
 
-Sample data is in CSV format. Stored in ./data/sample.csv
+Sample data is in CSV format. Stored in `./data/hw3_sample.csv`
 
 ## Update 
 
-### hw3 11/30/2022
+### HW3(11/30/2022)
 
 * Because of **523 Server Error**, the VACCOVID is temporarily unreachable, I will download it once it get recovered. If it cannot recover, I wil discard it and only use data from github/owid/covid-19-data.git
 
